@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  ::-webkit-scrollbar {
+    @apply w-1;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-br from-green-500 via-green-900 to-black;
+  }
+  body {
+    @apply font-poppins overflow-x-hidden antialiased bg-black text-gray-50;
+  }
+  #__app {
+    @apply overflow-x-hidden;
+  }
+  #sponsors::-webkit-scrollbar {
+    @apply hidden;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
