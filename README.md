@@ -1,6 +1,6 @@
 # Work.ly
 
-Slicing Desgin with Tailwind CSS and React.
+Slicing Design with Tailwind CSS and React.
 
 ## Lesson Learned
 
