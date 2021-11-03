@@ -11,7 +11,7 @@ Slicing Desgin with Tailwind CSS and React.
 
 ## References
 
-Source Design: [buildwithangga.com](https://buildwithangga.com/pixel)
+[buildwithangga.com](https://buildwithangga.com/pixel)
 [Tailwind CSS](https://tailwindcss.com)
 [React](https://reactjs.org)
 [Framer Motion](https://framer.com/motion)
