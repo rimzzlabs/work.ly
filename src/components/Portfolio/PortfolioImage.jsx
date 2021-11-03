@@ -17,9 +17,11 @@ const PlatformImage = ({ src, className, alt }) => {
     if (inView) {
       entry.target.setAttribute('src', src)
       controls.start('visible')
+      if (entry !== undefined) entry.target.classList.remove('blur-md')
     }
     if (!inView) {
       controls.start('hidden')
+      if (entry !== undefined) entry.target.classList.add('blur-md')
     }
   }, [controls, inView])
 
@@ -31,7 +33,7 @@ const PlatformImage = ({ src, className, alt }) => {
       ref={ref}
       src={'https://ik.imagekit.io/mlnzyx/workly/placeholder_rnL-LjANV.svg?updatedAt=1635908695765'}
       alt={alt}
-      className={className}
+      className={`blur-md ${className}`}
     />
   )
 }

@@ -16,8 +16,8 @@ const Testimonials = () => {
         'src',
         'https://ik.imagekit.io/mlnzyx/workly/reviewer_6mNz987S-BD.jpg?updatedAt=1635908698841',
       )
-      entry.target.classList.remove('blur')
       controls.start('visible')
+      entry.target.classList.remove('blur-md')
     }
   }, [controls, inView])
 
@@ -33,7 +33,7 @@ const Testimonials = () => {
           src={'https://ik.imagekit.io/mlnzyx/workly/placeholder_rnL-LjANV.svg?updatedAt=1635908695765'}
           width={360}
           alt=''
-          className={`w-96 lg:w-full object-cover rounded-2xl blur`}
+          className={`w-96 lg:w-full object-cover rounded-2xl blur-md`}
         />
       </div>
       <div className={`w-full`}>

@@ -7,7 +7,7 @@ const SponsorsBrand = ({ src }) => {
     if (inView) entry.target.setAttribute('src', src)
   }, [inView])
 
-  return <img ref={ref} width={50} alt='' className={`w-16 lg:w-24 object-cover`} />
+  return <img ref={ref} width={100} alt='' className={`w-20 lg:w-24 object-cover`} />
 }
 
 export default memo(SponsorsBrand)
