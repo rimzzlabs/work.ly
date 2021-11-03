@@ -29,9 +29,12 @@ const Modal = () => {
         <p className={`text-base lg:text-lg mb-4 text-gray-700`}>
           To confirm, check your email, and from now on you will not be miss any update about our services.
         </p>
-        <span className={`text-xs sm:text-sm text-gray-700/90`}>
+        <p className={`text-xs sm:text-sm mb-4 text-gray-700/90`}>
           You have been subscribed to our newsletter with email address: {state.input}
-        </span>
+        </p>
+        <button onClick={handleClose} className={`text-sm sm:text-base px-6 py-2 rounded-xl bg-green-600 text-white`}>
+          Got it!
+        </button>
       </div>
     </motion.div>
   )
