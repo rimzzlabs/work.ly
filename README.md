@@ -12,7 +12,11 @@ Slicing Design with Tailwind CSS and React.
 ## References
 
 [buildwithangga.com](https://buildwithangga.com/pixel)
+
 [Tailwind CSS](https://tailwindcss.com)
+
 [React](https://reactjs.org)
+
 [Framer Motion](https://framer.com/motion)
+
 [React Intersection Observer](https://github.com/researchgate/react-intersection-observer)
